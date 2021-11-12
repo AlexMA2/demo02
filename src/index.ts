@@ -10,4 +10,4 @@ app.use((ctx) => {
   ctx.response.body = "Bienvenido a La Guarida de Papel";
 });
 
-await app.listen({ port: env.PORT || 8000 });
+await app.listen({ port: 8000 });
